@@ -39,5 +39,5 @@ module.exports = {
       },
     }),
 
-  down: (queryInterface) => queryInterface.dropTable('files'),
+  down: (queryInterface) => queryInterface.dropTable('appointments'),
 };
